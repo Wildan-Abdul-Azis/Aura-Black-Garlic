@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aura Black Garlic - Bawang hitam premium hasil fermentasi alami, kaya antioksidan untuk kesehatan dan imunitas tubuh." />
+  <title>Aura Black Garlic — Bawang Hitam Premium</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">
+        <span class="logo-mark">🧄</span>
+        <span>Aura <strong>Black Garlic</strong></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#benefits">Manfaat</a>
+        <a href="#products">Produk</a>
+        <a href="#testimoni">Testimoni</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="cart-btn" id="cartBtn" aria-label="Keranjang">
+          🛒 <span class="cart-count" id="cartCount">0</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <span class="badge">100% Alami &amp; Tanpa Pengawet</span>
+        <h1>Rahasia Sehat dari <span class="highlight">Bawang Hitam</span> Premium</h1>
+        <p>Aura Black Garlic dibuat melalui proses fermentasi alami selama berminggu-minggu, menghasilkan bawang hitam kaya antioksidan untuk menjaga imunitas dan kesehatan tubuh Anda.</p>
+        <div class="hero-cta">
+          <a href="#products" class="btn btn-primary">Belanja Sekarang</a>
+          <a href="#about" class="btn btn-ghost">Pelajari Lebih Lanjut</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>10x</strong><span>Lebih Banyak Antioksidan</span></div>
+          <div><strong>5.000+</strong><span>Pelanggan Puas</span></div>
+          <div><strong>4.9★</strong><span>Rating Produk</span></div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-circle">
+          <span class="garlic-emoji">🧄</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section about" id="about">
+    <div class="container about-inner">
+      <div class="about-image">
+        <div class="about-img-box">🖤🧄</div>
+      </div>
+      <div class="about-text">
+        <span class="section-tag">Tentang Kami</span>
+        <h2>Apa Itu Black Garlic?</h2>
+        <p>Black garlic atau bawang hitam adalah bawang putih yang difermentasi dalam suhu dan kelembapan terkontrol selama 3-4 minggu. Proses ini mengubah warna menjadi hitam, tekstur menjadi lembut kenyal, dengan rasa manis-umami tanpa bau menyengat.</p>
+        <ul class="check-list">
+          <li>✅ Diproses higienis tanpa bahan kimia</li>
+          <li>✅ Kaya senyawa S-Allyl Cysteine (SAC)</li>
+          <li>✅ Bahan baku bawang putih pilihan</li>
+          <li>✅ Aman dikonsumsi setiap hari</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section class="section benefits" id="benefits">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Manfaat</span>
+        <h2>Kenapa Memilih Aura Black Garlic?</h2>
+        <p>Manfaat kesehatan yang luar biasa dalam setiap siung bawang hitam.</p>
+      </div>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">🛡️</div>
+          <h3>Tingkatkan Imunitas</h3>
+          <p>Memperkuat sistem kekebalan tubuh agar tidak mudah sakit.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">❤️</div>
+          <h3>Sehatkan Jantung</h3>
+          <p>Membantu menjaga tekanan darah dan kadar kolesterol tetap stabil.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">⚡</div>
+          <h3>Sumber Energi</h3>
+          <p>Mengurangi rasa lelah dan meningkatkan stamina harian.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">✨</div>
+          <h3>Antioksidan Tinggi</h3>
+          <p>Melawan radikal bebas dan memperlambat penuaan dini.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="section products" id="products">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Produk Kami</span>
+        <h2>Pilihan Paket Aura Black Garlic</h2>
+        <p>Tersedia berbagai ukuran sesuai kebutuhan Anda.</p>
+      </div>
+      <div class="cards-grid" id="productGrid"></div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section testimoni" id="testimoni">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Testimoni</span>
+        <h2>Kata Mereka Tentang Kami</h2>
+      </div>
+      <div class="cards-grid">
+        <div class="testi-card">
+          <p>"Sejak rutin konsumsi, badan jadi lebih fit dan jarang sakit. Rasanya juga enak, manis."</p>
+          <div class="testi-author"><strong>Siti Rahma</strong><span>Ibu Rumah Tangga</span></div>
+        </div>
+        <div class="testi-card">
+          <p>"Tekanan darah saya lebih stabil setelah konsumsi rutin selama sebulan. Recommended!"</p>
+          <div class="testi-author"><strong>Budi Santoso</strong><span>Karyawan Swasta</span></div>
+        </div>
+        <div class="testi-card">
+          <p>"Kualitas premium, kemasan rapi, dan pengiriman cepat. Pasti pesan lagi!"</p>
+          <div class="testi-author"><strong>Dewi Lestari</strong><span>Pengusaha</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Order -->
+  <section class="section contact" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-text">
+        <span class="section-tag">Hubungi Kami</span>
+        <h2>Pesan Sekarang &amp; Mulai Hidup Sehat</h2>
+        <p>Isi formulir di bawah ini atau hubungi kami langsung melalui WhatsApp.</p>
+        <ul class="contact-list">
+          <li>📱 WhatsApp: 0812-3456-7890</li>
+          <li>📧 Email: hello@aurablackgarlic.id</li>
+          <li>📍 Jl. Sehat No. 16, Indonesia</li>
+        </ul>
+      </div>
+      <form class="contact-form" id="orderForm">
+        <h3>Form Pemesanan</h3>
+        <input type="text" id="name" placeholder="Nama Lengkap" required />
+        <input type="tel" id="phone" placeholder="Nomor WhatsApp" required />
+        <select id="product" required>
+          <option value="">Pilih Produk</option>
+          <option value="Aura Black Garlic 100g - Rp 45.000">Aura Black Garlic 100g - Rp 45.000</option>
+          <option value="Aura Black Garlic 250g - Rp 99.000">Aura Black Garlic 250g - Rp 99.000</option>
+          <option value="Aura Black Garlic 500g - Rp 185.000">Aura Black Garlic 500g - Rp 185.000</option>
+        </select>
+        <textarea id="message" placeholder="Catatan / Alamat pengiriman" rows="3"></textarea>
+        <button type="submit" class="btn btn-primary full">Kirim Pesanan via WhatsApp</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="logo logo-light">
+          <span class="logo-mark">🧄</span>
+          <span>Aura <strong>Black Garlic</strong></span>
+        </a>
+        <p>Bawang hitam premium hasil fermentasi alami untuk hidup yang lebih sehat.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigasi</h4>
+        <a href="#about">Tentang</a>
+        <a href="#benefits">Manfaat</a>
+        <a href="#products">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="footer-col">
+        <h4>Ikuti Kami</h4>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">TikTok</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Aura Black Garlic. Semua hak dilindungi.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
